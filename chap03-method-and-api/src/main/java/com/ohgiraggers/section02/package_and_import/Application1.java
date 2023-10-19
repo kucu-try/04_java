@@ -1,6 +1,6 @@
 package main.java.com.ohgiraggers.section02.package_and_import;
 
-
+import main.java.com.ohgiraggers.section01.method.Calculator;
 
 
 public class Application1 {
@@ -14,7 +14,7 @@ public class Application1 {
         * 그렇기 떄문에 서로 다른 패키지에 존재하는 클래스를 사용하는 경우에는 클래스명앞에 패키지명을 명시해서 클래스 이름으로 사용해야한다
         * */
 
-        main.java.com.ohgiraggers.section01.method.Calculator cal = new main.java.com.ohgiraggers.section01.method.Calculator();
+        Calculator cal = new main.java.com.ohgiraggers.section01.method.Calculator();
 
         System.out.println(cal.minNumberOf(1,2));
         System.out.println(main.java.com.ohgiraggers.section01.method.Calculator.maxNumberOf(1,2));

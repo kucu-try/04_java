@@ -16,7 +16,7 @@ public class Application8 {
 //        int result = app1.sumToNumbers(1,2);
 
         //권장한다 아주 권장해
-        int result2 =Application8.sumToNumbers(1,2);
+        int result =Application8.sumToNumbers(1,2);
 
     }
 
