@@ -32,51 +32,40 @@ public class C_team {
         세 번째 주사위: 2
         꽝!     */
         C_team cteam = new C_team();
-//        cteam.dice();
+        cteam.dice();
 
         //별 찍기
 
-        cteam.star();
+//        cteam.star();
     }
 
 
-    public void star(){
-        Scanner sc= new Scanner(System.in);
-        String star2 = "*";
-
-        for(;;){
-            System.out.println("몇 줄 찍을꺼니 (1~50줄 까지만): ");
-            int star1 = sc.nextInt();
-            if(star1 < 1 || star1 > 50){
-                System.out.println("질문 좀 똑바로 봐.");
-            }else {
-                for(int i = 1 ; i <= star1; i++){
-                    System.out.println(star2);
-                    star2 += "*";
-                }
-                break;
-            }
-        }
-
-
-
-    }
-
-
-
-
-
-
+//    public void star(){
+//        Scanner sc= new Scanner(System.in);
+//        String star2 = "*";
+//
+//        for(;;){
+//            System.out.println("몇 줄 찍을꺼니 (1~50줄 까지만): ");
+//            int star1 = sc.nextInt();
+//            if(star1 < 1 || star1 > 50){
+//                System.out.println("질문 좀 똑바로 봐.");
+//            }else {
+//                for(int i = 1 ; i <= star1; i++){
+//                    System.out.println(star2);
+//                    star2 += "*";
+//                }
+//                break;
+//            }
+//        }
+//    }
 
 
     public void dice(){
         Scanner sc = new Scanner(System.in);
         Random random = new Random();
 
-
-
-            System.out.println(" 1번째 주사위를 굴립니다 '굴리기'를 입력하세요.");
-            String run1 = sc.nextLine();
+        System.out.println(" 1번째 주사위를 굴립니다 '굴리기'를 입력하세요.");
+        String run1 = sc.nextLine();
         int dice1 = random.nextInt(5)+1;
             if(run1.equals("ㄱ")){
 
