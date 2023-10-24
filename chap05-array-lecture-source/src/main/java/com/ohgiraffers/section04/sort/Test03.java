@@ -28,7 +28,7 @@ public class Test03 {
             String cos =  card[0][colorN];
             String cos1 = card[1][numN];
 
-            System.out.println(i+1 +"번 째 카드는 " + cos+ " " + cos1);
+            System.out.println(i+1 +"번 째 카드는 " + cos+ " " + " " + cos1);
 
         }
 
