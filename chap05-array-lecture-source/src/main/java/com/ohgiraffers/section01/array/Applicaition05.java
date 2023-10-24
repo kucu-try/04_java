@@ -15,6 +15,8 @@ public class Applicaition05 {
         int num10 = random.nextInt(shapes.length);
         int num20 = random.nextInt(charNumber.length);
 
+
+
 //        int shapeNum = (int) (Math.random()*shapes.length);
 //        int charNum = (int) (Math.random()*charNumber.length);
 

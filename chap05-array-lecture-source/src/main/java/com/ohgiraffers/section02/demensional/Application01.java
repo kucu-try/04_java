@@ -38,17 +38,17 @@ public class Application01 {
         iarr1[2] = new int[5];
 
         iarr2 = new int[3][5];
-        System.out.println(iarr1[0]);
+        System.out.println("d" +iarr1[0]);
 
 //        for (int i = 0; i< iarr1.length; i++){
 //            System.out.println(iarr1[0][i]);
 //        }
-        int value = 0;
-        for (int i = 0; i< iarr1.length; i++){
-            for (int j = 0; j < iarr1[i].length; i++){
-                iarr1[i][j] = ++value;
-            }
-        }
+//        int value = 0;
+//        for (int i = 0; i< iarr1.length; i++){
+//            for (int j = 0; j < iarr1[i].length; i++){
+//                iarr1[i][j] = ++value;
+//            }
+//        }
 
 
     }
