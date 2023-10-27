@@ -11,7 +11,7 @@ public class Application9 {
 
 //        Application9 minus = new Application9();
 
-        System.out.println(minus.minNumberOf(first, second));
+//        System.out.println(minus.minNumberOf(first, second));
 
 //        int result2 =Application9.maxNumberOf(first, second);
         int result2 = Calculator.maxNumberOf(first,second);
