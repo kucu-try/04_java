@@ -8,9 +8,9 @@ public class Application9 {
         int first = 100;
         int second = 50;
 //        int result = 0;
-        Calculator minus = new Calculator();
+
 //        Application9 minus = new Application9();
-//        int result = minus.minNumberOf(first, second);
+
         System.out.println(minus.minNumberOf(first, second));
 
 //        int result2 =Application9.maxNumberOf(first, second);

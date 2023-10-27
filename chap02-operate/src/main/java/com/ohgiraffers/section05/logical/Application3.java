@@ -17,5 +17,7 @@ public class Application3 {
         int num2 =20;
         int result2 = (true || ++num2 > 0) ? num2 : 30;
         System.out.println(result2);
+        int result3 = (false || num2 < 0) ? num1 : 30;
+        System.out.println(result3);
     }
 }

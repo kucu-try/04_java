@@ -1,4 +1,4 @@
-package main.java.com.ohgiraffers.section04.practice;
+package main.java.com.ohgiraffers.section05.practice;
 
 public class Application01 {
 
@@ -8,5 +8,6 @@ public class Application01 {
 
       RactAngle01 r1 = new RactAngle01(4,5);
       pt.testParameter(r1);
+
    }
 }

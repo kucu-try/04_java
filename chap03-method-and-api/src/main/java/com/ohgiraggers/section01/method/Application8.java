@@ -17,6 +17,7 @@ public class Application8 {
 
         //권장한다 아주 권장해
         int result =Application8.sumToNumbers(1,2);
+        //int result = Application8.sumToNumbers(1,3);
 
     }
 

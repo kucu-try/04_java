@@ -65,7 +65,7 @@ public class Application01 {
 
         char ch2= 65;
         System.out.println("ch2: " +ch2);
-
+ㅋ
         //1-4. 논리적 형변환 규칙에서 제외
         boolean isTrue = false;
 //        byte b = isTrue;

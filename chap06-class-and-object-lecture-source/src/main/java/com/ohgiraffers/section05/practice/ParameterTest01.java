@@ -1,4 +1,4 @@
-package main.java.com.ohgiraffers.section04.practice;
+package main.java.com.ohgiraffers.section05.practice;
 
 public class ParameterTest01 {
 
