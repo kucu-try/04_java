@@ -15,27 +15,21 @@ public class Apllication {
 
     }
 
-    public void methodA(){
-        System.out.println("methodA() 호출...");
+  public void methodA(){
+      System.out.println("a");
+      methodB();
+      System.out.println("f");
+  }
 
-        methodB();
-
-        System.out.println("methodA() 종료..");
-    }
-
-    public void methodB(){
-        System.out.println("methodB() 호출...");
-
-        methodC();
-
-        System.out.println("methodB() 종료..");
-    }
-
+  public void methodB(){
+      System.out.println("b");
+      methodC();
+      System.out.println("e");
+  }
     public void methodC(){
-        System.out.println("methodC() 호출...");
-        System.out.println("methodC() 종료..");
+        System.out.println("c");
+        System.out.println("d");
     }
-
 
 
 }

@@ -66,7 +66,6 @@ public class Application {
         * */
 
         CarRacer carRacer = new CarRacer();
-        carRacer.startUp();
         Scanner sc = new Scanner(System.in);
         loop: while (true){
             System.out.println("===카레이서 프로그램===");

@@ -15,7 +15,7 @@ public class DoubleArr {
             for (int j=0; j < babo[i].length; j++){
                 System.out.print(babo[i][j] + "|");
             }
-            System.out.println();
+//            System.out.println();
         }
     }
 }
