@@ -1,4 +1,4 @@
-package main.java.com.ohgiraffers.section02.uses;
+package main.java.com.ohgiraffers.section02.uses3;
 
 public class Member {
     private int num;
@@ -10,13 +10,10 @@ public class Member {
 
 
 
-    public Member(int num, String id, String pwd, String name, int age, char gender){
+    public Member(int num, String id){
         this.num = num;
         this.id =id;
-        this.pwd = pwd;
-        this.name = name;
-        this.age =age;
-        this.gender=gender;
+
     }
 
     public int getNum() {
@@ -71,12 +68,9 @@ public class Member {
     public String toString() {
         return "Member{" +
                 "num=" + num +
-                ", id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                ", pwd='" + pwd + '\'' +
-                ", age=" + age +
-                ", gender=" + gender +
+                ", id='" + id + '\''
+                 +
                 '}';
     }
-}
 
+}

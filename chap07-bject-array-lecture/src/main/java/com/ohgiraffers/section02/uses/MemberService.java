@@ -11,6 +11,7 @@ public class MemberService {
         members[2] = new Member(3,"user03","pass","이순신" , 25, '남');
         members[3] = new Member(4,"user04","pass","신사임" , 206, '여');
         members[4] = new Member(5,"user05","pass","윤봉길" , 2, '남');
+
         // ((no==1) -3) memberRegister를 생성함
         MemberRegister memberRegister = new MemberRegister();
         //((no == 1) -4) memberRegister.regist()메서드에 Member[] 를 매개변수로 전달하여 해당 메서드를 호출함
