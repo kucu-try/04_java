@@ -47,5 +47,6 @@ public class Application {
         System.out.println(kona.hashCode());
         System.out.println(car2.hashCode());
         System.out.println(kona instanceof ElectricCar);
+
     }
 }
